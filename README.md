@@ -5,6 +5,7 @@ A comprehensive collection of Ruby scripts demonstrating web scraping techniques
 ## Overview
 
 Nokogiri is a powerful Ruby gem for parsing and searching XML and HTML documents. This repository contains practical examples that cover everything from basic HTML parsing to advanced web scraping techniques. Whether you're new to web scraping or looking to refine your skills, these examples provide a solid foundation.
+
 ![alt text](<image.png>)
 
 ## Repository Contents
@@ -13,9 +14,12 @@ This repository includes two main practice scripts and comprehensive documentati
 
 ### nokogiri_examples.rb
 
-A comprehensive tutorial script demonstrating all major Nokogiri features through ten progressive examples. This script is designed to be run from start to finish, building your understanding step by step.
+An **interactive menu-driven tutorial** demonstrating all major Nokogiri features through ten progressive examples. Choose specific examples to explore or run the complete tutorial at your own pace with color-coded terminal output for enhanced learning.
 
 **Key Features:**
+- **Interactive menu system** - Select examples 1-10 individually or run all at once
+- **Color-coded output** - Cyan, green, yellow, and magenta highlights for better readability
+- **User-driven navigation** - Return to menu after each example to choose next topic
 - Parsing HTML strings and documents
 - CSS selectors (ID, class, nested selectors)
 - XPath selectors for complex queries
@@ -25,12 +29,16 @@ A comprehensive tutorial script demonstrating all major Nokogiri features throug
 - Pattern matching with regex
 - Building HTML with Nokogiri::Builder
 - Parsing and navigating XML documents
-- Real-world website scraping examples
+- Real-world website scraping (Hacker News)
 
 **Usage:**
 ```bash
 ruby nokogiri_examples.rb
 ```
+Then select from the interactive menu:
+- Options 1-10: Run individual examples
+- Option 11: Run all examples sequentially
+- Option 0: Exit
 
 ### website_scraper.rb
 
@@ -182,11 +190,11 @@ element.classes                     # Array of CSS classes
 
 Follow this recommended learning path to build your Nokogiri skills progressively.
 
-**Step 1: Run the comprehensive tutorial**
+**Step 1: Start with the interactive tutorial**
 ```bash
 ruby nokogiri_examples.rb
 ```
-Read through the output carefully and examine the code for each example. This will give you a solid foundation in all major Nokogiri features.
+Use the interactive menu to explore examples at your own pace. Start with example 1 (Parsing HTML String) and progress through each example sequentially, or jump to specific topics that interest you. Run option 11 to see all examples in one session. The color-coded output helps distinguish different concepts and results.
 
 **Step 2: Experiment with individual websites**
 ```bash
