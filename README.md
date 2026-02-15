@@ -1,4 +1,4 @@
-# Nokogiri Web Scraping Learning Repository
+# Nokogiri Web Scraping - Learning Repository
 
 A comprehensive collection of Ruby scripts demonstrating web scraping techniques using the Nokogiri gem. This repository provides hands-on examples for parsing HTML/XML documents, navigating the DOM, extracting data, and scraping real websites.
 
@@ -365,6 +365,8 @@ Contributions are welcome. If you have additional examples or improvements:
 - Submit a pull request
 
 ## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is open source and available for educational purposes. When scraping websites, always respect their terms of service and robots.txt files.
 
