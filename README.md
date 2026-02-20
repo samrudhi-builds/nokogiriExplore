@@ -1,22 +1,20 @@
-# NokogiriExplore - Interactive CLI Utility for Surgical Data Extraction
+# NokogiriExplore - Interactive CLI Utility
 
-A terminal-based laboratory for DOM forensics.
+> **A terminal-based laboratory for DOM forensics.**
 
-NokogiriExplore is a menu-driven CLI engine designed to dissect web pages, reverse-engineer HTML structures, and harvest data with precision using XPath and CSS selectors.
+**NokogiriExplore** is a menu-driven CLI engine designed to dissect web pages, reverse-engineer HTML structures, and harvest data with precision using XPath and CSS selectors.
 
-Unlike standard scraping scripts, this utility acts as a structural analysis tool, allowing you to test selectors against live targets, navigate complex DOM trees, and automate extraction workflows directly from the terminal.
+**NokogiriExplore** is a menu-driven CLI engine designed to dissect web pages, reverse-engineer HTML structures, and harvest data with precision using XPath and CSS selectors.
 
 ## Overview
 
 Powered by the robust Nokogiri gem, this tool provides a hands-on environment for:
 
-* DOM Dissection: Parse and traverse HTML/XML documents to understand underlying page architecture.
+* **DOM Dissection:** Parse and traverse HTML/XML documents to understand underlying page architecture.
+* **Precision Targeting:** Test and refine complex XPath and CSS selectors in real-time.
+* **Live Reconnaissance:** Execute controlled extraction against real-world targets (e-commerce sites, news aggregators) to identify data patterns.
+* **Data Harvesting:** Automate the retrieval of structured data, handling everything from basic nodes to nested attributes.
 
-* Precision Targeting: Test and refine complex XPath and CSS selectors in real-time.
-
-* Live Reconnaissance: execute controlled extraction against real-world targets (e-commerce sites, news aggregators) to identify data patterns.
-
-* Data Harvesting: Automate the retrieval of structured data, handling everything from basic nodes to nested attributes.
 
 ![alt text](<cli-main-menu.png>)
 
